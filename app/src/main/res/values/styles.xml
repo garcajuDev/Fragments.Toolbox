@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Material.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="botones">
+        <item name="android:layout_width">@dimen/lar</item>
+        <item name="android:layout_height">@dimen/lar</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+    <style name="espacio">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+    </style>
+
+</resources>

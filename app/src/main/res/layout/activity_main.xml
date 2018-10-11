@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <fragment android:id = "@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="a.garcaju.toolbox.Menu"
+        tools:layout="@layout/fragment_menu"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="@dimen/max"
+            android:layout_height="@dimen/max"
+            android:src = "@drawable/herramientas"/>
+    </RelativeLayout>
+
+</LinearLayout>
